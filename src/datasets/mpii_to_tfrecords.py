@@ -11,7 +11,7 @@ from time import time
 
 import numpy as np
 
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from .common import convert_to_example, ImageCoder, resize_img
 
