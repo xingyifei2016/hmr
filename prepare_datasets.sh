@@ -36,7 +36,7 @@ MOSH_DIR=/scratch1/storage/human_datasets/neutrMosh
 #python -m src.datasets.lsp_to_tfrecords --img_directory $LSP_EXT_DIR --output_directory $DATA_DIR/lsp_ext
 
 # ----- MPII -----
-python -m src.datasets.mpii_to_tfrecords --img_directory $MPII_DIR --output_directory $DATA_DIR/mpii
+python -m src.datasets.36m_to_tfrecords --img_directory $MPII_DIR --output_directory $DATA_DIR/mpii
 
 # ----- COCO -----
 #python -m src.datasets.coco_to_tfrecords --data_directory $COCO_DIR --output_directory $DATA_DIR/coco
